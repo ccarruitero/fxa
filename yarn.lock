@@ -783,7 +783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.0.0, @babel/parser@npm:^7.1.0, @babel/parser@npm:^7.4.3, @babel/parser@npm:^7.7.0, @babel/parser@npm:^7.7.4, @babel/parser@npm:^7.8.6, @babel/parser@npm:^7.9.0, @babel/parser@npm:^7.9.6":
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.4.3, @babel/parser@npm:^7.7.0, @babel/parser@npm:^7.7.4, @babel/parser@npm:^7.8.6, @babel/parser@npm:^7.9.0, @babel/parser@npm:^7.9.6":
   version: 7.9.6
   resolution: "@babel/parser@npm:7.9.6"
   bin:
@@ -1849,7 +1849,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/traverse@npm:^7.0.0, @babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.4.3, @babel/traverse@npm:^7.7.0, @babel/traverse@npm:^7.7.4, @babel/traverse@npm:^7.8.3, @babel/traverse@npm:^7.9.0, @babel/traverse@npm:^7.9.6":
+"@babel/traverse@npm:^7.1.0, @babel/traverse@npm:^7.4.3, @babel/traverse@npm:^7.7.0, @babel/traverse@npm:^7.7.4, @babel/traverse@npm:^7.8.3, @babel/traverse@npm:^7.9.0, @babel/traverse@npm:^7.9.6":
   version: 7.9.6
   resolution: "@babel/traverse@npm:7.9.6"
   dependencies:
@@ -8310,7 +8310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-eslint@npm:10.1.0, babel-eslint@npm:^10.0.3, babel-eslint@npm:^10.1.0":
+"babel-eslint@npm:10.1.0, babel-eslint@npm:^10.1.0":
   version: 10.1.0
   resolution: "babel-eslint@npm:10.1.0"
   dependencies:
@@ -8323,20 +8323,6 @@ __metadata:
   peerDependencies:
     eslint: ">= 4.12.1"
   checksum: 3/c872bb9476e62557918b1f4ddfe864b1477cc5b0b31aa6049af5ffa94feae133c7e9d3e9b1d09eb516a811e9cf569b9f9eb2bc7b980d47d3960857a51ffe7b41
-  languageName: node
-  linkType: hard
-
-"babel-eslint@npm:9.0.0":
-  version: 9.0.0
-  resolution: "babel-eslint@npm:9.0.0"
-  dependencies:
-    "@babel/code-frame": ^7.0.0
-    "@babel/parser": ^7.0.0
-    "@babel/traverse": ^7.0.0
-    "@babel/types": ^7.0.0
-    eslint-scope: 3.7.1
-    eslint-visitor-keys: ^1.0.0
-  checksum: 3/dba5c8b41bc8239afa61a9b2fa2fe92bcf087e1a500cdee94adc19e549f82095604bbaba1d0e4df6802ec74117d2a60af4bb67122c691491e1451fdefe41486d
   languageName: node
   linkType: hard
 
@@ -14311,16 +14297,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:3.7.1":
-  version: 3.7.1
-  resolution: "eslint-scope@npm:3.7.1"
-  dependencies:
-    esrecurse: ^4.1.0
-    estraverse: ^4.1.1
-  checksum: 3/a7b8d417033e75a33073ded541a00dd3a148a75d0a6144cf0216204d6eeca231263c79a5527fe63e7a30b1b3c2ac582b7e8fb1254a06a8c00ef7119833a99884
-  languageName: node
-  linkType: hard
-
 "eslint-scope@npm:^4.0.3":
   version: 4.0.3
   resolution: "eslint-scope@npm:4.0.3"
@@ -16535,7 +16511,7 @@ fsevents@^1.2.7:
     audit-filter: ^0.5.0
     autoprefixer: 9.0.1
     awesome-typescript-loader: ^5.2.1
-    babel-eslint: 9.0.0
+    babel-eslint: ^10.1.0
     babel-loader: 8.0.6
     babel-plugin-dynamic-import-webpack: 1.0.2
     backbone: ^1.4.0
@@ -17035,7 +17011,7 @@ fsevents@^1.2.7:
     "@typescript-eslint/parser": ^2.33.0
     async-wait-until: ^1.2.4
     audit-filter: ^0.5.0
-    babel-eslint: ^10.0.3
+    babel-eslint: ^10.1.0
     babel-loader: ^8.0.6
     browserslist: ^4.7.2
     caniuse-lite: ^1.0.30001010
