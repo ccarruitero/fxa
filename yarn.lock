@@ -15,7 +15,7 @@ __metadata:
     express: 4.16.4
     fxa-jwtool: 0.7.x
     fxa-shared: "workspace:*"
-    morgan: 1.9.1
+    morgan: ^1.10.0
     node-rsa: 1.0.5
     pm2: ^4.4.0
     prettier: ^2.0.5
@@ -9064,7 +9064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"basic-auth@npm:~2.0.0, basic-auth@npm:~2.0.1":
+"basic-auth@npm:~2.0.1":
   version: 2.0.1
   resolution: "basic-auth@npm:2.0.1"
   dependencies:
@@ -9658,7 +9658,7 @@ __metadata:
     fxa-shared: "workspace:*"
     intel: 1.2.0
     mocha: ^7.1.2
-    morgan: 1.9.1
+    morgan: ^1.10.0
     mozlog: 2.2.0
     optimist: 0.6.1
     pm2: ^4.4.0
@@ -15946,7 +15946,7 @@ __metadata:
     eslint-plugin-fxa: ^2.0.2
     express: 4.16.4
     fxa-shared: "workspace:*"
-    morgan: 1.9.1
+    morgan: ^1.10.0
     nodemon: ^2.0.3
     npm-run-all: 4.1.5
     pm2: ^4.4.0
@@ -16660,7 +16660,7 @@ fsevents@^1.2.7:
     lodash: 4.17.13
     mkdirp: 0.5.1
     mocha: ^7.1.2
-    morgan: 1.9.1
+    morgan: ^1.10.0
     mozlog: 2.2.0
     mustache: 2.3.0
     node-sass: ^4.13.1
@@ -17106,7 +17106,7 @@ fsevents@^1.2.7:
     intl-pluralrules: ^1.1.1
     jest: ^24.9.0
     joi: ^14.3.1
-    morgan: ^1.9.1
+    morgan: ^1.10.0
     mozlog: ^2.2.0
     nock: ^12.0.3
     node-sass: ^4.13.1
@@ -24632,20 +24632,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"morgan@npm:1.9.1":
-  version: 1.9.1
-  resolution: "morgan@npm:1.9.1"
-  dependencies:
-    basic-auth: ~2.0.0
-    debug: 2.6.9
-    depd: ~1.1.2
-    on-finished: ~2.3.0
-    on-headers: ~1.0.1
-  checksum: 3/3ffe266d6a491361da904b8714aad549cdc2a17b481a1eb76a132037ec41a39070395727a28ba0e6d09707feb16db1d81134e92f0b7ca1c86cc3e3472aad5bf5
-  languageName: node
-  linkType: hard
-
-"morgan@npm:^1.9.1":
+"morgan@npm:^1.10.0":
   version: 1.10.0
   resolution: "morgan@npm:1.10.0"
   dependencies:
@@ -25912,7 +25899,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"on-headers@npm:^1.0.2, on-headers@npm:~1.0.1, on-headers@npm:~1.0.2":
+"on-headers@npm:^1.0.2, on-headers@npm:~1.0.2":
   version: 1.0.2
   resolution: "on-headers@npm:1.0.2"
   checksum: 3/51e75c80755169e765aa76238722e5ad1623f62b13bbc23544ade20cdbb6950cf0e6aa91de35d02ec956f47dc072ee460d8eef82354e4abf8fa692885cb3f2d8
