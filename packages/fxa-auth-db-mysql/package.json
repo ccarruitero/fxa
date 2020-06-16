@@ -38,7 +38,7 @@
     "mozlog": "2.2.0",
     "mysql": "^2.18.1",
     "mysql-patcher": "0.7.0",
-    "request": "2.88.0",
+    "request": "^2.88.2",
     "restify": "^8.4.0"
   },
   "devDependencies": {

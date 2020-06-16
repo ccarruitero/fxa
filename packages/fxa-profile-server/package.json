@@ -38,7 +38,7 @@
     "mysql": "^2.18.1",
     "mysql-patcher": "0.7.0",
     "poolee": "1.0.0",
-    "request": "2.83.0",
+    "request": "^2.88.2",
     "stream-to-array": "2.3.0"
   },
   "devDependencies": {

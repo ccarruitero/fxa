@@ -35,7 +35,7 @@
     "convict": "^5.2.0",
     "handlebars": "^4.5.2",
     "mozlog": "2.2.0",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.8",
     "semver": "^6.3.0",
     "typesafe-joi": "^2.0.6"

@@ -33,7 +33,7 @@
     "maxmind": "2.8.0",
     "mkdirp": "0.5.1",
     "mozlog": "2.2.0",
-    "request": "2.88.0"
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "audit-filter": "^0.5.0",

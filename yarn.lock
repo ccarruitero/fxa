@@ -20,7 +20,7 @@ __metadata:
     pm2: ^4.4.0
     prettier: ^2.0.5
     redis: 0.7.1
-    request: 2.88.0
+    request: ^2.88.2
   languageName: unknown
   linkType: soft
 
@@ -9692,24 +9692,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"boom@npm:4.x.x":
-  version: 4.3.1
-  resolution: "boom@npm:4.3.1"
-  dependencies:
-    hoek: 4.x.x
-  checksum: 3/9c3fc5f959684d0a615ca30a93cdffa299e7c320037c5c74c84a6422dfdc303397633e141710ea3b4992aedb627f8786aa6c4bccf8a4e03a3d073c9dbd46a418
-  languageName: node
-  linkType: hard
-
-"boom@npm:5.x.x":
-  version: 5.2.0
-  resolution: "boom@npm:5.2.0"
-  dependencies:
-    hoek: 4.x.x
-  checksum: 3/746d2bc7b0befe8bb9bdacbc52d689078161504bb327b32353a27e9c173249aed1bb18898be658fc17db7563f40c3ab1cd5958557caf8226231cd7692644f344
-  languageName: node
-  linkType: hard
-
 "boom@npm:7.x.x":
   version: 7.3.0
   resolution: "boom@npm:7.3.0"
@@ -9984,7 +9966,7 @@ __metadata:
     optimist: 0.6.1
     pm2: ^4.4.0
     prettier: ^2.0.5
-    request: 2.88.0
+    request: ^2.88.2
     should: 13.2.3
     temp: 0.9.0
     toobusy-js: 0.5.1
@@ -12445,15 +12427,6 @@ __metadata:
   version: 0.0.2
   resolution: "crypt@npm:0.0.2"
   checksum: 3/1ad9c8439ad26eef21ca130df3e79fff4915e839167efde163891b935ffb41742bfbc359bb00ae8b1ff205db52e7fb0e32326b84b7f977cd6e6a279eed9dc742
-  languageName: node
-  linkType: hard
-
-"cryptiles@npm:3.x.x":
-  version: 3.1.4
-  resolution: "cryptiles@npm:3.1.4"
-  dependencies:
-    boom: 5.x.x
-  checksum: 3/5ec67cf91656268f74db323290d2a7969b73160bf2535010acdb550f4c895f1f1076710caf3e40b5799d56ffe68b997f6bc90dd76b8b44f268306d1d0db51ee7
   languageName: node
   linkType: hard
 
@@ -16899,7 +16872,7 @@ fsevents@^1.2.7:
     pm2: ^4.4.0
     prettier: ^2.0.5
     proxyquire: ^2.1.3
-    request: 2.88.0
+    request: ^2.88.2
     restify: ^8.4.0
     restify-clients: ^2.6.7
     sinon: ^9.0.2
@@ -17005,7 +16978,7 @@ fsevents@^1.2.7:
     punycode.js: 2.1.0
     qrcode: ^1.4.4
     read: 1.0.7
-    request: 2.88.0
+    request: ^2.88.2
     rimraf: ^3.0.2
     safe-regex: ^1.1.0
     safe-url-assembler: 1.3.5
@@ -17155,7 +17128,7 @@ fsevents@^1.2.7:
     react: ^16.8.6
     react-dom: ^16.8.6
     regenerator-runtime: ^0.13.5
-    request: 2.88.0
+    request: ^2.88.2
     request-promise: 4.2.0
     sass-loader: ^8.0.2
     serve-static: 1.13.1
@@ -17237,7 +17210,7 @@ fsevents@^1.2.7:
     pm2: ^4.4.0
     prettier: ^2.0.5
     proxyquire: ^2.1.3
-    request: 2.85.0
+    request: ^2.88.2
     restify-clients: 2.5.0
     sinon: ^9.0.2
     tap: ^14.6.1
@@ -17346,7 +17319,7 @@ fsevents@^1.2.7:
     mozlog: 2.2.0
     nyc: ^15.0.1
     prettier: ^2.0.5
-    request: 2.88.0
+    request: ^2.88.2
     rimraf: ^3.0.2
     sinon: ^9.0.2
   languageName: unknown
@@ -17660,7 +17633,7 @@ fsevents@^1.2.7:
     pngparse: 2.0.1
     poolee: 1.0.0
     prettier: ^2.0.5
-    request: 2.83.0
+    request: ^2.88.2
     rimraf: ^3.0.2
     sinon: ^9.0.2
     stream-to-array: 2.3.0
@@ -17835,7 +17808,7 @@ fsevents@^1.2.7:
     nodemon: ^1.19.4
     pm2: ^4.4.0
     prettier: ^2.0.5
-    request: ^2.88.0
+    request: ^2.88.2
     request-promise-native: ^1.0.8
     semver: ^6.3.0
     sinon: ^9.0.2
@@ -19162,7 +19135,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"har-validator@npm:~5.1.0, har-validator@npm:~5.1.3":
+"har-validator@npm:~5.1.3":
   version: 5.1.3
   resolution: "har-validator@npm:5.1.3"
   dependencies:
@@ -19382,18 +19355,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hawk@npm:~6.0.2":
-  version: 6.0.2
-  resolution: "hawk@npm:6.0.2"
-  dependencies:
-    boom: 4.x.x
-    cryptiles: 3.x.x
-    hoek: 4.x.x
-    sntp: 2.x.x
-  checksum: 3/734a32369e741139009cbac83846a12641fb784760b2a445deb092676872056c36d3f934510653a009ea3ec64c2d15e456e9fecf38575a135dba498b7b5aafca
-  languageName: node
-  linkType: hard
-
 "he@npm:1.2.0, he@npm:1.2.x, he@npm:^1.2.0":
   version: 1.2.0
   resolution: "he@npm:1.2.0"
@@ -19530,13 +19491,6 @@ fsevents@^1.2.7:
     minimalistic-assert: ^1.0.0
     minimalistic-crypto-utils: ^1.0.1
   checksum: 3/729d5a55bf793619830aca5e62d101dfdb4164fe30c056cdcaecb32b1a69a23aa663d88e876d9d56cb69b1c3d95395ea60b0a715763c461188b37dca3dea930d
-  languageName: node
-  linkType: hard
-
-"hoek@npm:4.x.x":
-  version: 4.2.1
-  resolution: "hoek@npm:4.2.1"
-  checksum: 3/38f6c7a1e6bc7783d88b2878e9157507ff637252c93b4b7de524fc637584fd52d6c188e82baafc95baf5fcf9616558d60618f309b71f77d891a87bfd9559b8de
   languageName: node
   linkType: hard
 
@@ -29776,7 +29730,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"psl@npm:^1.1.24, psl@npm:^1.1.28":
+"psl@npm:^1.1.28":
   version: 1.8.0
   resolution: "psl@npm:1.8.0"
   checksum: 3/92d47c6257456878bfa8190d76b84de69bcefdc129eeee3f9fe204c15fd08d35fe5b8627033f39b455e40a9375a1474b25ff4ab2c5448dd8c8f75da692d0f5b4
@@ -31517,66 +31471,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"request@npm:2.83.0":
-  version: 2.83.0
-  resolution: "request@npm:2.83.0"
-  dependencies:
-    aws-sign2: ~0.7.0
-    aws4: ^1.6.0
-    caseless: ~0.12.0
-    combined-stream: ~1.0.5
-    extend: ~3.0.1
-    forever-agent: ~0.6.1
-    form-data: ~2.3.1
-    har-validator: ~5.0.3
-    hawk: ~6.0.2
-    http-signature: ~1.2.0
-    is-typedarray: ~1.0.0
-    isstream: ~0.1.2
-    json-stringify-safe: ~5.0.1
-    mime-types: ~2.1.17
-    oauth-sign: ~0.8.2
-    performance-now: ^2.1.0
-    qs: ~6.5.1
-    safe-buffer: ^5.1.1
-    stringstream: ~0.0.5
-    tough-cookie: ~2.3.3
-    tunnel-agent: ^0.6.0
-    uuid: ^3.1.0
-  checksum: 3/9e334fb1899009a9b730f87bebb1f764b0eac57c0c01567280897bd0db9f151855bb959f97c601cb05a63fe3791e55708f1e73d82c5207b75884b219223e28ed
-  languageName: node
-  linkType: hard
-
-"request@npm:2.85.0":
-  version: 2.85.0
-  resolution: "request@npm:2.85.0"
-  dependencies:
-    aws-sign2: ~0.7.0
-    aws4: ^1.6.0
-    caseless: ~0.12.0
-    combined-stream: ~1.0.5
-    extend: ~3.0.1
-    forever-agent: ~0.6.1
-    form-data: ~2.3.1
-    har-validator: ~5.0.3
-    hawk: ~6.0.2
-    http-signature: ~1.2.0
-    is-typedarray: ~1.0.0
-    isstream: ~0.1.2
-    json-stringify-safe: ~5.0.1
-    mime-types: ~2.1.17
-    oauth-sign: ~0.8.2
-    performance-now: ^2.1.0
-    qs: ~6.5.1
-    safe-buffer: ^5.1.1
-    stringstream: ~0.0.5
-    tough-cookie: ~2.3.3
-    tunnel-agent: ^0.6.0
-    uuid: ^3.1.0
-  checksum: 3/a71bc944c3264d2397c7b72e7b13cfe57b942999e9fdb9acc20346a4b44ccc33bd0aa8772752a4baecf32063f43447017cdc17d7d66e0a3cb4b96cedc6001e31
-  languageName: node
-  linkType: hard
-
 "request@npm:2.87.0":
   version: 2.87.0
   resolution: "request@npm:2.87.0"
@@ -31602,34 +31496,6 @@ fsevents@^1.2.7:
     tunnel-agent: ^0.6.0
     uuid: ^3.1.0
   checksum: 3/b3df5de02b36949d1e194439f230ae33a67325fe23ca7afc0bd2c431b4510b7285dfb8c2cf9eea6f7be40d1c5928d678bde1bf6aa952f1de034570e8ac842b8a
-  languageName: node
-  linkType: hard
-
-"request@npm:2.88.0":
-  version: 2.88.0
-  resolution: "request@npm:2.88.0"
-  dependencies:
-    aws-sign2: ~0.7.0
-    aws4: ^1.8.0
-    caseless: ~0.12.0
-    combined-stream: ~1.0.6
-    extend: ~3.0.2
-    forever-agent: ~0.6.1
-    form-data: ~2.3.2
-    har-validator: ~5.1.0
-    http-signature: ~1.2.0
-    is-typedarray: ~1.0.0
-    isstream: ~0.1.2
-    json-stringify-safe: ~5.0.1
-    mime-types: ~2.1.19
-    oauth-sign: ~0.9.0
-    performance-now: ^2.1.0
-    qs: ~6.5.2
-    safe-buffer: ^5.1.2
-    tough-cookie: ~2.4.3
-    tunnel-agent: ^0.6.0
-    uuid: ^3.3.2
-  checksum: 3/2735b6a5d6dbd7bac9e1277843f3f920e8e306c6d24e1c979e5d8273e9a1719cf353286d5030505b663f494e92f6779b278a341836e8e889bd9dd49f83df5802
   languageName: node
   linkType: hard
 
@@ -33305,15 +33171,6 @@ resolve@~1.11.1:
   languageName: node
   linkType: hard
 
-"sntp@npm:2.x.x":
-  version: 2.1.0
-  resolution: "sntp@npm:2.1.0"
-  dependencies:
-    hoek: 4.x.x
-  checksum: 3/499018cb4a47c69f0416262b4f9fec9c93009e79c3a376cf99c1cfd825144c9587a1bce01a9aecbdb70bc17993a82c433467534740b59031692dc4f47880eec2
-  languageName: node
-  linkType: hard
-
 "sntp@npm:3.x.x":
   version: 3.0.2
   resolution: "sntp@npm:3.0.2"
@@ -34242,13 +34099,6 @@ resolve@~1.11.1:
     is-obj: ^1.0.1
     is-regexp: ^1.0.0
   checksum: 3/4b0a6802f0294a3a340f31822a0802a4945f12b0823e640c9a3dd64b487abf0a0e7099b43d6133a9aa28a9b99ffe187ee5e066f0798ea60019c87e156bcaf6d3
-  languageName: node
-  linkType: hard
-
-"stringstream@npm:~0.0.5":
-  version: 0.0.6
-  resolution: "stringstream@npm:0.0.6"
-  checksum: 3/bd679f1f6555bef7aaceb4121517c37054dcb091a77606c6d76ffcf0e4eb3535b5191273f2e8363c959093052ccca4381d81a5f9556b2d2da49ccd24eb15460d
   languageName: node
   linkType: hard
 
@@ -35571,16 +35421,6 @@ resolve@~1.11.1:
     psl: ^1.1.28
     punycode: ^2.1.1
   checksum: 3/dc1eee69c61a6d5598144ff41c9b5e758207130d92d2b89facad075140a99c10d674a6278764b9edfe8e074cb7840c15e7b786b93d0672875026c2ce5172d774
-  languageName: node
-  linkType: hard
-
-"tough-cookie@npm:~2.4.3":
-  version: 2.4.3
-  resolution: "tough-cookie@npm:2.4.3"
-  dependencies:
-    psl: ^1.1.24
-    punycode: ^1.4.1
-  checksum: 3/48decf702128d2ac20cc572dcac02051f2201d7d2dbc80fb216cef92fb7f68f0a89b6260d1c19aff13af66f51af61ab4a7ec266948a7f2ee0395cef38fb71fab
   languageName: node
   linkType: hard
 
