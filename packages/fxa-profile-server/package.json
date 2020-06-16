@@ -21,6 +21,7 @@
     "@hapi/hapi": "19.1.1",
     "@hapi/inert": "~6.0.1",
     "@hapi/joi": "^17.1.1",
+    "@sentry/node": "^5.17.0",
     "aws-sdk": "^2.698.0",
     "bluebird": "3.4.1",
     "buf": "0.1.0",
@@ -37,7 +38,6 @@
     "mysql": "2.16.0",
     "mysql-patcher": "0.7.0",
     "poolee": "1.0.0",
-    "raven": "2.1.2",
     "request": "2.83.0",
     "stream-to-array": "2.3.0"
   },

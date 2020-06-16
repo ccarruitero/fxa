@@ -28,6 +28,7 @@
   },
   "license": "MPL-2.0",
   "dependencies": {
+    "@sentry/node": "^5.17.0",
     "base64url": "3.0.0",
     "bluebird": "3.5.2",
     "convict": "4.4.0",
@@ -37,7 +38,6 @@
     "mozlog": "2.2.0",
     "mysql": "^2.17.1",
     "mysql-patcher": "0.7.0",
-    "raven": "2.6.4",
     "request": "2.88.0",
     "restify": "^8.4.0"
   },

@@ -94,8 +94,8 @@
     "webpack": "^4.43.0"
   },
   "dependencies": {
-    "@sentry/browser": "^5.9.0",
-    "@sentry/node": "^5.9.0",
+    "@sentry/browser": "^5.17.0",
+    "@sentry/node": "^5.17.0",
     "@types/fluent__react": "^0.10.0",
     "@types/nock": "^10.0.1",
     "@types/react-document-title": "^2.0.3",

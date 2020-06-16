@@ -34,7 +34,7 @@
     "@hapi/hapi": "^19.1.1",
     "@hapi/hoek": "^9.0.3",
     "@hapi/joi": "^15.0.1",
-    "@sentry/node": "^5.13.2",
+    "@sentry/node": "^5.17.0",
     "aws-sdk": "^2.698.0",
     "convict": "^6.0.0",
     "fxa-jwtool": "^0.7.2",

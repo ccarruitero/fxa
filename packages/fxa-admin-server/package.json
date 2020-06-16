@@ -29,7 +29,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "@sentry/integrations": "^5.14.1",
-    "@sentry/node": "^5.14.1",
+    "@sentry/node": "^5.17.0",
     "apollo-server": "^2.11.0",
     "apollo-server-express": "^2.11.0",
     "convict": "^6.0.0",
