@@ -11,7 +11,7 @@ __metadata:
     audit-filter: 0.5.0
     client-sessions: 0.6.x
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     express: 4.16.4
     fxa-jwtool: 0.7.x
     fxa-shared: "workspace:*"
@@ -9995,7 +9995,7 @@ __metadata:
     compute-cluster: 0.0.9
     convict: ^6.0.0
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     express: 4.16.4
     fxa-shared: "workspace:*"
     intel: 1.2.0
@@ -14673,20 +14673,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-fxa@npm:2.0.1":
-  version: 2.0.1
-  resolution: "eslint-plugin-fxa@npm:2.0.1"
-  dependencies:
-    eslint: 6.6.0
-    eslint-config-prettier: 6.5.0
-    ramda: ^0.26.1
-  peerDependencies:
-    eslint: ">=6.6.0"
-  checksum: 3/8e91bcb7774e10c34ccdd1e7b4262d70a15041ee34c62de26c0c1ea5552f6c6b2a57aecb9ee5ca1a25c1747558b0f069e75600847d4136e3dcd043ded7f21fc6
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-fxa@npm:^2.0.1, eslint-plugin-fxa@npm:^2.0.2":
+"eslint-plugin-fxa@npm:^2.0.2":
   version: 2.0.2
   resolution: "eslint-plugin-fxa@npm:2.0.2"
   dependencies:
@@ -16454,7 +16441,7 @@ __metadata:
     client-sessions: 0.6.x
     ejs: ^3.1.2
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     express: 4.16.4
     fxa-shared: "workspace:*"
     morgan: 1.9.1
@@ -16829,7 +16816,7 @@ fsevents@^1.2.7:
     convict: ^5.2.0
     dateformat: ^3.0.3
     eslint: ^6.8.0
-    eslint-plugin-fxa: ^2.0.1
+    eslint-plugin-fxa: ^2.0.2
     eslint-plugin-jest: ^23.8.1
     eslint-plugin-react: ^7.18.3
     express: ^4.17.1
@@ -16920,7 +16907,7 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     convict: 4.4.0
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-jwtool: 0.7.2
     fxa-shared: "workspace:*"
     ip: 1.1.5
@@ -16982,7 +16969,7 @@ fsevents@^1.2.7:
     convict: 4.3.1
     email-addresses: 2.0.2
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-auth-db-mysql: "workspace:*"
     fxa-geodb: "workspace:*"
     fxa-jwtool: 0.7.2
@@ -17112,7 +17099,7 @@ fsevents@^1.2.7:
     duration-js: 3.6.0
     es6-promise: 4.2.4
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     expose-loader: 0.7.5
     express: 4.16.2
     extract-loader: 2.0.1
@@ -17255,7 +17242,7 @@ fsevents@^1.2.7:
     convict: 4.0.2
     deep-equal: 1.0.1
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-shared: "workspace:*"
     grunt: ^1.1.0
     grunt-cli: 1.2.0
@@ -17301,7 +17288,7 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     chai-as-promised: ^7.1.1
     eslint: ^6.8.0
-    eslint-plugin-fxa: ^2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-shared: "workspace:*"
     mocha: ^7.1.2
     prettier: ^2.0.5
@@ -17372,7 +17359,7 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     cron: 1.5.0
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-shared: "workspace:*"
     maxmind: 2.8.0
     mkdirp: 0.5.1
@@ -17455,7 +17442,7 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     es6-promise: 4.1.1
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-shared: "workspace:*"
     grunt: ^1.1.0
     grunt-cli: ^1.3.2
@@ -17600,7 +17587,7 @@ fsevents@^1.2.7:
     convict: ^5.2.0
     dayjs: ^1.8.17
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     eslint-plugin-jest: 22.21.0
     eslint-plugin-react: ^7.17.0
     express: ^4.16.4
@@ -17676,7 +17663,7 @@ fsevents@^1.2.7:
     convict-format-with-moment: ^6.0.0
     convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
-    eslint-plugin-fxa: 2.0.1
+    eslint-plugin-fxa: ^2.0.2
     fxa-notifier-aws: 1.0.0
     fxa-shared: "workspace:*"
     gm-reloaded: 1.24.0
