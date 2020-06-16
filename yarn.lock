@@ -8497,51 +8497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.0.23":
-  version: 2.0.23
-  resolution: "aws-sdk@npm:2.0.23"
-  dependencies:
-    xml2js: 0.2.6
-    xmlbuilder: 0.4.2
-  checksum: 3/4fc7afb0e2abb98b2773ac7d0c6a8fba91fc68e32d8a7a908facdba311c9823cd0d5bf5238bb18705ce2cf94846bab5b326de906ba562dca7bbdc3aac7fdcd03
-  languageName: node
-  linkType: hard
-
-"aws-sdk@npm:2.343.0":
-  version: 2.343.0
-  resolution: "aws-sdk@npm:2.343.0"
-  dependencies:
-    buffer: 4.9.1
-    events: 1.1.1
-    ieee754: 1.1.8
-    jmespath: 0.15.0
-    querystring: 0.2.0
-    sax: 1.2.1
-    url: 0.10.3
-    uuid: 3.1.0
-    xml2js: 0.4.19
-  checksum: 3/56bf863c674ad04472cfffd6269627f7d58137c6211c93abcba4bddf3a8b86c41860bead7f881de7aa2b837bcdcbdd540ef066c8c373a9e46e6692e611f64a34
-  languageName: node
-  linkType: hard
-
-"aws-sdk@npm:2.77.0":
-  version: 2.77.0
-  resolution: "aws-sdk@npm:2.77.0"
-  dependencies:
-    buffer: 5.0.6
-    crypto-browserify: 1.0.9
-    jmespath: 0.15.0
-    querystring: 0.2.0
-    sax: 1.2.1
-    url: 0.10.3
-    uuid: 3.0.1
-    xml2js: 0.4.17
-    xmlbuilder: 4.2.1
-  checksum: 3/ed89c6dc1143f54e12e36b8930c205f06285a4e1ecd23bc045c2e10ac17829483a14455764932b4e12bf602421f41ec91b26ff7a6ceb64af7ca0f2045b20797b
-  languageName: node
-  linkType: hard
-
-"aws-sdk@npm:^2.443.0, aws-sdk@npm:^2.636.0, aws-sdk@npm:^2.653.0":
+"aws-sdk@npm:^2.443.0":
   version: 2.675.0
   resolution: "aws-sdk@npm:2.675.0"
   dependencies:
@@ -8555,6 +8511,23 @@ __metadata:
     uuid: 3.3.2
     xml2js: 0.4.19
   checksum: 3/fb04cb694426fc74fd41b8dd16dabe0210d64c9560569f4624ad99d1dacf5553aa224621dd0b297bc77e5e5ad4d607ec4ac3a7ed98fb8a27201d9eedcbccb42e
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.698.0":
+  version: 2.698.0
+  resolution: "aws-sdk@npm:2.698.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.15.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    uuid: 3.3.2
+    xml2js: 0.4.19
+  checksum: 3/9c0b16510af16dc07f2e51dea4a3cc961f1a833718229076579907e5b1a41b0ac9161ee3da9ff4505f2eb6fa8e43e8f7bb3910275d53bee7a180cdba3d2b1246
   languageName: node
   linkType: hard
 
@@ -10409,13 +10382,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer@npm:5.0.6":
-  version: 5.0.6
-  resolution: "buffer@npm:5.0.6"
+"buffer@npm:4.9.2":
+  version: 4.9.2
+  resolution: "buffer@npm:4.9.2"
   dependencies:
     base64-js: ^1.0.2
     ieee754: ^1.1.4
-  checksum: 3/1dfe0221b0e5e40aefdadca57bfa9cb119af16847c15ffcedb174855e04ff91ca29668b2bf1a81d11286239b6e32a6e35cb2ab91309347aa9392ba0b2da1a974
+    isarray: ^1.0.0
+  checksum: 3/e29ecda22aa854008e26a8df294be1e5339a3bec8cbf537a794fecf63a024da68165743bc9afb1524909c74d8b03392e93a9c8fa5c2b064b1b2a52d4680c204e
   languageName: node
   linkType: hard
 
@@ -12571,13 +12545,6 @@ __metadata:
   dependencies:
     boom: 7.x.x
   checksum: 3/a170e2b2067ee85b4649d7262f1e09a441d8299c1e0498a533a860be983252c376f1f5d081ce36a508e2b66e7bf49e703215b31650c79502159400fe7ffe48e0
-  languageName: node
-  linkType: hard
-
-"crypto-browserify@npm:1.0.9":
-  version: 1.0.9
-  resolution: "crypto-browserify@npm:1.0.9"
-  checksum: 3/16c088947f0321859a31252a849c47a8d97c521e4a110de14729e6adb9eeec91fc200bc10a45eb3c2e5bafc8917059a64ec10b3902062280aa6d016a2b5ea2f6
   languageName: node
   linkType: hard
 
@@ -17063,7 +17030,7 @@ fsevents@^1.2.7:
     acorn: ^5.7.3
     ajv: 4.1.7
     audit-filter: ^0.5.0
-    aws-sdk: 2.77.0
+    aws-sdk: ^2.698.0
     base64url: 3.0.0
     binary-split: 0.1.2
     bluebird: 3.5.2
@@ -17390,7 +17357,7 @@ fsevents@^1.2.7:
   resolution: "fxa-email-event-proxy@workspace:packages/fxa-email-event-proxy"
   dependencies:
     audit-filter: ^0.5.0
-    aws-sdk: ^2.653.0
+    aws-sdk: ^2.698.0
     bluebird: ^3.7.2
     chai: ^4.2.0
     chai-as-promised: ^7.1.1
@@ -17427,7 +17394,7 @@ fsevents@^1.2.7:
     "@types/sinon": ^7.5.2
     "@types/uuid": ^7.0.0
     audit-filter: ^0.5.0
-    aws-sdk: ^2.636.0
+    aws-sdk: ^2.698.0
     chai: ^4.2.0
     chance: ^1.1.4
     convict: ^6.0.0
@@ -17759,7 +17726,7 @@ fsevents@^1.2.7:
     "@hapi/inert": ~6.0.1
     "@hapi/joi": ^17.1.1
     audit-filter: ^0.5.0
-    aws-sdk: 2.343.0
+    aws-sdk: ^2.698.0
     bluebird: 3.4.1
     buf: 0.1.0
     checksum: 0.1.1
@@ -20272,13 +20239,6 @@ fsevents@^1.2.7:
   version: 1.1.13
   resolution: "ieee754@npm:1.1.13"
   checksum: 3/9ef12932e8aeae1c614f314783b3770fac5daae7ae92ebffcda97da58efd77c0289181093666f6048e02c566ceeec4d0edf3b04b57ce8e0b57e9b3814a870469
-  languageName: node
-  linkType: hard
-
-"ieee754@npm:1.1.8":
-  version: 1.1.8
-  resolution: "ieee754@npm:1.1.8"
-  checksum: 3/9e3a9ce6007951540c74f29e00c85150584b956c0d511ede217bb4e557de308b06ee8dc50037eac683942464a8c05865ef777cd60eab095cdd4f52d104692ecf
   languageName: node
   linkType: hard
 
@@ -32620,13 +32580,6 @@ resolve@~1.11.1:
   languageName: node
   linkType: hard
 
-"sax@npm:0.4.2":
-  version: 0.4.2
-  resolution: "sax@npm:0.4.2"
-  checksum: 3/1146aece397449bc5a05a1c62e6fb8dc89b50349688acc8596cdda9b27cc94833fd1d66adf94ebf19ca7efdd9bed36cbaabd028f4566460cbba1ec3d47f95e40
-  languageName: node
-  linkType: hard
-
 "sax@npm:1.2.1, sax@npm:>=0.6.0":
   version: 1.2.1
   resolution: "sax@npm:1.2.1"
@@ -37005,24 +36958,6 @@ typescript@3.8.3:
   languageName: node
   linkType: hard
 
-"uuid@npm:3.0.1":
-  version: 3.0.1
-  resolution: "uuid@npm:3.0.1"
-  bin:
-    uuid: ./bin/uuid
-  checksum: 3/aeffb7e3853674b672f7313494c59804e576408d06352ebf8af77aaac1dd3dbccb5a95ab68f44acae777848b766e69ca55d2da1100a50a035d2b3b70c7a129e9
-  languageName: node
-  linkType: hard
-
-"uuid@npm:3.1.0":
-  version: 3.1.0
-  resolution: "uuid@npm:3.1.0"
-  bin:
-    uuid: ./bin/uuid
-  checksum: 3/b8ea7fab1031f5bbf11c7bd099e459b31b412dadee662d9f98619463cfaf373a327be4b19f376c87fc342cab1402ce14396ce5816e977f4765c3d7e394db514c
-  languageName: node
-  linkType: hard
-
 "uuid@npm:3.3.2":
   version: 3.3.2
   resolution: "uuid@npm:3.3.2"
@@ -38286,25 +38221,6 @@ typescript@3.8.3:
   languageName: node
   linkType: hard
 
-"xml2js@npm:0.2.6":
-  version: 0.2.6
-  resolution: "xml2js@npm:0.2.6"
-  dependencies:
-    sax: 0.4.2
-  checksum: 3/e0501b8983feafe86f54c27379370f1a6f6d44155e7714c98989a329e8a227ddf9a8962efe4efed55f47d525f25f58bbe328b361d561cb6c92153e0d7e632fdd
-  languageName: node
-  linkType: hard
-
-"xml2js@npm:0.4.17":
-  version: 0.4.17
-  resolution: "xml2js@npm:0.4.17"
-  dependencies:
-    sax: ">=0.6.0"
-    xmlbuilder: ^4.1.0
-  checksum: 3/522e1f2c2a7509d6abc2c0aa23c02a2a59d846eee26cbd67f32b0dd96da06dbb002b71809434f1ea14e05ebe2a7551336bf59a70dc796d5ecf33a0e479f241de
-  languageName: node
-  linkType: hard
-
 "xml2js@npm:0.4.19":
   version: 0.4.19
   resolution: "xml2js@npm:0.4.19"
@@ -38329,22 +38245,6 @@ typescript@3.8.3:
   version: 1.0.1
   resolution: "xml@npm:1.0.1"
   checksum: 3/adde7652a6f6010d28079586e7f608d616138bcb6c44bbc9174292b5cc2fab09b351d6c5f009e9304df2e0030888198225dd2e9ccbf51b776c8928479bfea4cb
-  languageName: node
-  linkType: hard
-
-"xmlbuilder@npm:0.4.2":
-  version: 0.4.2
-  resolution: "xmlbuilder@npm:0.4.2"
-  checksum: 3/acc016245b569b94fd9f69a98a0b13297f42b77aa4686407ce3a71267e05b981fd69667e01040b09dfde359dfb6d4ce8bdf1370b728acbc44a6f3f613940138b
-  languageName: node
-  linkType: hard
-
-"xmlbuilder@npm:4.2.1, xmlbuilder@npm:^4.1.0":
-  version: 4.2.1
-  resolution: "xmlbuilder@npm:4.2.1"
-  dependencies:
-    lodash: ^4.0.0
-  checksum: 3/2af8ba7958b6634c866295eef1a18a4c4ab95e27724d304249f1868231f805d77f2fa1056463c89997dbe17728684157f2ff1c7be15eeefae8925f49e57a1f48
   languageName: node
   linkType: hard
 

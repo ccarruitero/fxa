@@ -21,7 +21,7 @@
     "@hapi/hapi": "19.1.1",
     "@hapi/inert": "~6.0.1",
     "@hapi/joi": "^17.1.1",
-    "aws-sdk": "2.343.0",
+    "aws-sdk": "^2.698.0",
     "bluebird": "3.4.1",
     "buf": "0.1.0",
     "checksum": "0.1.1",
