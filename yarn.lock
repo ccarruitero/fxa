@@ -9451,20 +9451,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bignumber.js@npm:4.0.4":
-  version: 4.0.4
-  resolution: "bignumber.js@npm:4.0.4"
-  checksum: 3/15234da0e43cac7eb7da622f356080d92d4c35c9d1658a8ba5dc65ccb706ebf353fd730f99b078ddfd1e21b2d7f171ab46d0fda553e7e8c15dbd778cddc55238
-  languageName: node
-  linkType: hard
-
-"bignumber.js@npm:4.1.0":
-  version: 4.1.0
-  resolution: "bignumber.js@npm:4.1.0"
-  checksum: 3/b1b5031443586c646da8cf9c927a676959de9d9c79106157a9e65642b1b7770b2eb9b858f06da62712db1ea69ab9dc528788a4d9bfbd642bf9ae8c6b17ec07d9
-  languageName: node
-  linkType: hard
-
 "bignumber.js@npm:9.0.0":
   version: 9.0.0
   resolution: "bignumber.js@npm:9.0.0"
@@ -16940,7 +16926,7 @@ fsevents@^1.2.7:
     ip: 1.1.5
     mocha: ^7.1.2
     mozlog: 2.2.0
-    mysql: ^2.17.1
+    mysql: ^2.18.1
     mysql-patcher: 0.7.0
     nock: ^12.0.3
     nyc: ^15.0.1
@@ -17034,7 +17020,7 @@ fsevents@^1.2.7:
     moment: ^2.24.0
     moment-timezone: 0.5.11
     mozlog: 2.2.0
-    mysql: 2.15.0
+    mysql: ^2.18.1
     mysql-patcher: 0.7.0
     nock: ^12.0.3
     node-uap: "git://github.com/mozilla-fxa/node-uap.git#96dc1f9f224422ec184395b6408cd1fc40ee452a"
@@ -17700,7 +17686,7 @@ fsevents@^1.2.7:
     mocha: ^7.1.2
     mocha-text-cov: 0.1.1
     mozlog: 2.2.0
-    mysql: 2.16.0
+    mysql: ^2.18.1
     mysql-patcher: 0.7.0
     nock: ^12.0.3
     nyc: ^15.0.1
@@ -25819,31 +25805,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mysql@npm:2.15.0":
-  version: 2.15.0
-  resolution: "mysql@npm:2.15.0"
-  dependencies:
-    bignumber.js: 4.0.4
-    readable-stream: 2.3.3
-    safe-buffer: 5.1.1
-    sqlstring: 2.3.0
-  checksum: 3/5c787bb2807ed7407fa376fc02ac57a4e3233744f9c44f6f546969908eaf6e40e8bd018a8bb7faf3585f2a0d18879df752702591aebb5870d2a5cc971d06a208
-  languageName: node
-  linkType: hard
-
-"mysql@npm:2.16.0":
-  version: 2.16.0
-  resolution: "mysql@npm:2.16.0"
-  dependencies:
-    bignumber.js: 4.1.0
-    readable-stream: 2.3.6
-    safe-buffer: 5.1.2
-    sqlstring: 2.3.1
-  checksum: 3/b991e725b46f3aed2218aae8b5fc5a3e172cef6eecceea59974fbb5c3d93f1782feb6ac8563193dfe1d377d1b5e701e9dc4337fd1be3eab3ce250b80f7b14478
-  languageName: node
-  linkType: hard
-
-"mysql@npm:^2.17.1, mysql@npm:^2.18.1":
+"mysql@npm:^2.18.1":
   version: 2.18.1
   resolution: "mysql@npm:2.18.1"
   dependencies:
@@ -30962,36 +30924,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:2.3.3":
-  version: 2.3.3
-  resolution: "readable-stream@npm:2.3.3"
-  dependencies:
-    core-util-is: ~1.0.0
-    inherits: ~2.0.3
-    isarray: ~1.0.0
-    process-nextick-args: ~1.0.6
-    safe-buffer: ~5.1.1
-    string_decoder: ~1.0.3
-    util-deprecate: ~1.0.1
-  checksum: 3/0cd82d4c98e7a0fc04eec2373e32eff50574108c901a4832c0529e09fede8133888a8c9d1820526485a9b12618c0c3ce658d458af25eeadc4e303c8846eca0c8
-  languageName: node
-  linkType: hard
-
-"readable-stream@npm:2.3.6":
-  version: 2.3.6
-  resolution: "readable-stream@npm:2.3.6"
-  dependencies:
-    core-util-is: ~1.0.0
-    inherits: ~2.0.3
-    isarray: ~1.0.0
-    process-nextick-args: ~2.0.0
-    safe-buffer: ~5.1.1
-    string_decoder: ~1.1.1
-    util-deprecate: ~1.0.1
-  checksum: 3/2240daa70aa9485971b1be4e20dfb474eaf04d317db92917afdaf55dd170c547a1f82e47026a1c209c85df31ee8951c4ab9427ab7679d4fbebfad039d9c77ff5
-  languageName: node
-  linkType: hard
-
 "readable-stream@npm:~2.0.0, readable-stream@npm:~2.0.5":
   version: 2.0.6
   resolution: "readable-stream@npm:2.0.6"
@@ -33858,13 +33790,6 @@ resolve@~1.11.1:
   languageName: node
   linkType: hard
 
-"sqlstring@npm:2.3.0":
-  version: 2.3.0
-  resolution: "sqlstring@npm:2.3.0"
-  checksum: 3/7b3fc3b7683e634e10a09e1dd6b567c4090c628304289c52ba0ca50ca63c9373c957cbba5b106c1f4ff1a8c8ba1c7358fe6b9cde31f0839bc583f17cc061c717
-  languageName: node
-  linkType: hard
-
 "sqlstring@npm:2.3.1":
   version: 2.3.1
   resolution: "sqlstring@npm:2.3.1"
@@ -34318,15 +34243,6 @@ resolve@~1.11.1:
   dependencies:
     safe-buffer: ~5.2.0
   checksum: 3/0a09afb610cb538707fcf0a50a080f159040529eabdba82f23b04f1d1f90adf9ba18cc3800231c6ab2ee55dece047f4bed87c56da52b2afd85c3c7fb73eb7e48
-  languageName: node
-  linkType: hard
-
-"string_decoder@npm:~1.0.3":
-  version: 1.0.3
-  resolution: "string_decoder@npm:1.0.3"
-  dependencies:
-    safe-buffer: ~5.1.0
-  checksum: 3/677a05eccb5b020bbbca4f2d05aee22168ef87d36ed752a654b3f12d6f876dc0fb5193d786b193fb3c56aba7714507e17bc1bc5e792baabbbced3eda7491ed10
   languageName: node
   linkType: hard
 

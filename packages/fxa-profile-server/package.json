@@ -35,7 +35,7 @@
     "gm-reloaded": "1.24.0",
     "lodash": "~4.17.15",
     "mozlog": "2.2.0",
-    "mysql": "2.16.0",
+    "mysql": "^2.18.1",
     "mysql-patcher": "0.7.0",
     "poolee": "1.0.0",
     "request": "2.83.0",
