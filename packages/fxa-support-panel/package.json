@@ -33,6 +33,8 @@
     "@hapi/scooter": "^6.0.0",
     "blankie": "^4.1.1",
     "convict": "^6.0.0",
+    "convict-format-with-moment": "^6.0.0",
+    "convict-format-with-validator": "^6.0.0",
     "handlebars": "^4.5.2",
     "mozlog": "2.2.0",
     "request": "^2.88.2",

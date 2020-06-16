@@ -3532,14 +3532,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/integrations@npm:^5.14.1, @sentry/integrations@npm:^5.15.4, @sentry/integrations@npm:^5.15.5":
-  version: 5.15.5
-  resolution: "@sentry/integrations@npm:5.15.5"
+"@sentry/integrations@npm:^5.17.0":
+  version: 5.17.0
+  resolution: "@sentry/integrations@npm:5.17.0"
   dependencies:
-    "@sentry/types": 5.15.5
-    "@sentry/utils": 5.15.5
+    "@sentry/types": 5.17.0
+    "@sentry/utils": 5.17.0
     tslib: ^1.9.3
-  checksum: 3/d11930f3cdd7b7a466773250df57356e18ff86b12e4d895801cc092fd9093d2a18d8643a90ee158d7f1e82d8eb8b690a1a262a47f2cec7b0c07a7b4fb7e8fa5a
+  checksum: 3/1693adacbb3a02dedd5358387ca1a21c6de33e6772a13a2ec465c4b8ffefd5698c40ef8c43917ca5ad7d5ea908465600c86dc27dd43b695eb71a7c0d908900f8
   languageName: node
   linkType: hard
 
@@ -3571,27 +3571,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/types@npm:5.15.5":
-  version: 5.15.5
-  resolution: "@sentry/types@npm:5.15.5"
-  checksum: 3/882d8db6e81447649b3009e1a7f1164c603c9a50e7086da8572d85fee01c6fc41a9817512eb683a94c767543828d11fa0cb85a4a6b976ab879381b656357290c
-  languageName: node
-  linkType: hard
-
 "@sentry/types@npm:5.17.0":
   version: 5.17.0
   resolution: "@sentry/types@npm:5.17.0"
   checksum: 3/201ec6385fb9878c999da4855a67ccaaf9c5462cf89691749c0f08027068e1e4b9fab86acfc4d122c5a3b8f1d0d6a1c16b7dec5ff0bc9a458c0a9d5d5d836977
-  languageName: node
-  linkType: hard
-
-"@sentry/utils@npm:5.15.5":
-  version: 5.15.5
-  resolution: "@sentry/utils@npm:5.15.5"
-  dependencies:
-    "@sentry/types": 5.15.5
-    tslib: ^1.9.3
-  checksum: 3/6ee371183ac16c581d35b0d9e8684486a8f7f826760983d2d5501623d25c68ff4f0eb7c871d5d085d99fc854264db59a62615fb52ff62c3460b315c7293ab5a8
   languageName: node
   linkType: hard
 
@@ -9615,6 +9598,8 @@ __metadata:
     browserid-local-verify: 0.5.2
     compute-cluster: 0.0.9
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
     express: 4.16.4
@@ -16247,6 +16232,8 @@ fsevents@^1.2.7:
     body-parser: ^1.19.0
     chance: ^1.1.4
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     dateformat: ^3.0.3
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
@@ -16285,7 +16272,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "fxa-admin-server@workspace:packages/fxa-admin-server"
   dependencies:
-    "@sentry/integrations": ^5.14.1
+    "@sentry/integrations": ^5.17.0
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.10
     "@types/chance": ^1.0.9
@@ -16304,6 +16291,8 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     chance: ^1.1.4
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     fxa-shared: "workspace:*"
     graphql: ^14.6.0
@@ -16339,6 +16328,8 @@ fsevents@^1.2.7:
     bluebird: ^3.7.2
     chai: ^4.2.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
     fxa-jwtool: 0.7.2
@@ -16400,6 +16391,8 @@ fsevents@^1.2.7:
     cldr-localenames-full: 31.0.1
     commander: 2.18.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     email-addresses: 2.0.2
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
@@ -16525,6 +16518,8 @@ fsevents@^1.2.7:
     connect-cachify: 0.0.17
     consolidate: 0.14.5
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     cookie-parser: 1.4.3
     copy-webpack-plugin: ^5.1.1
     css: 2.2.3
@@ -16673,6 +16668,8 @@ fsevents@^1.2.7:
     bunyan: 1.8.0
     chai: ^4.2.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     deep-equal: 1.0.1
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
@@ -16757,6 +16754,8 @@ fsevents@^1.2.7:
     chai: ^4.2.0
     chance: ^1.1.4
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     factory-bot-ts: ^0.1.5
     fxa-jwtool: ^0.7.2
@@ -16810,7 +16809,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "fxa-graphql-api@workspace:packages/fxa-graphql-api"
   dependencies:
-    "@sentry/integrations": ^5.15.5
+    "@sentry/integrations": ^5.17.0
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.11
     "@types/chance": ^1.1.0
@@ -16835,6 +16834,8 @@ fsevents@^1.2.7:
     chance: ^1.1.5
     commander: ^5.1.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     fxa-js-client: ^1.0.25
     fxa-shared: "workspace:*"
@@ -16913,7 +16914,7 @@ fsevents@^1.2.7:
   resolution: "fxa-metrics-processor@workspace:packages/fxa-metrics-processor"
   dependencies:
     "@google-cloud/pubsub": ^1.7.2
-    "@sentry/integrations": ^5.15.4
+    "@sentry/integrations": ^5.17.0
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.11
     "@types/convict": ^5.2.0
@@ -16924,6 +16925,8 @@ fsevents@^1.2.7:
     audit-filter: ^0.5.0
     chai: ^4.2.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     fxa-shared: "workspace:*"
     json-schema-to-typescript: ^8.2.0
@@ -17018,6 +17021,8 @@ fsevents@^1.2.7:
     celebrate: ^10.1.0
     classnames: ^2.2.6
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     dayjs: ^1.8.17
     eslint: ^6.8.0
     eslint-plugin-fxa: ^2.0.2
@@ -17279,6 +17284,8 @@ fsevents@^1.2.7:
     blankie: ^4.1.1
     chai: ^4.2.0
     convict: ^6.0.0
+    convict-format-with-moment: ^6.0.0
+    convict-format-with-validator: ^6.0.0
     eslint: ^6.8.0
     fxa-conventional-changelog: 1.1.0
     fxa-shared: "workspace:*"

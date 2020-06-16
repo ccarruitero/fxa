@@ -32,6 +32,8 @@
     "base64url": "3.0.0",
     "bluebird": "^3.7.2",
     "convict": "^6.0.0",
+    "convict-format-with-moment": "^6.0.0",
+    "convict-format-with-validator": "^6.0.0",
     "fxa-jwtool": "0.7.2",
     "fxa-shared": "workspace:*",
     "ip": "1.1.5",

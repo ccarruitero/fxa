@@ -104,6 +104,8 @@
     "celebrate": "^10.1.0",
     "classnames": "^2.2.6",
     "convict": "^6.0.0",
+    "convict-format-with-moment": "^6.0.0",
+    "convict-format-with-validator": "^6.0.0",
     "dayjs": "^1.8.17",
     "eslint-plugin-jest": "^23.13.2",
     "express": "^4.16.4",

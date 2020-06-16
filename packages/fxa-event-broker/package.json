@@ -37,6 +37,8 @@
     "@sentry/node": "^5.17.0",
     "aws-sdk": "^2.698.0",
     "convict": "^6.0.0",
+    "convict-format-with-moment": "^6.0.0",
+    "convict-format-with-validator": "^6.0.0",
     "fxa-jwtool": "^0.7.2",
     "google-auth-library": "^5.10.1",
     "hot-shots": "^7.1.0",

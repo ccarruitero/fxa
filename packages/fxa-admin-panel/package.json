@@ -39,6 +39,8 @@
     "apollo-client": "^2.6.4",
     "body-parser": "^1.19.0",
     "convict": "^6.0.0",
+    "convict-format-with-moment": "^6.0.0",
+    "convict-format-with-validator": "^6.0.0",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.0",
