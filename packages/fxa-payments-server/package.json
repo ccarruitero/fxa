@@ -103,7 +103,7 @@
     "@types/react-transition-group": "^4.2.3",
     "celebrate": "^10.1.0",
     "classnames": "^2.2.6",
-    "convict": "^5.2.0",
+    "convict": "^6.0.0",
     "dayjs": "^1.8.17",
     "eslint-plugin-jest": "^22.21.0",
     "express": "^4.16.4",
