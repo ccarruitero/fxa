@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/mozilla/fxa/tree/master/packages/fxa-geodb",
   "dependencies": {
-    "bluebird": "3.5.2",
+    "bluebird": "^3.7.2",
     "cron": "1.5.0",
     "maxmind": "2.8.0",
     "mkdirp": "0.5.1",

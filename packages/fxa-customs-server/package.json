@@ -27,7 +27,7 @@
     "@hapi/hoek": "^9.0.4",
     "@sentry/node": "^5.17.0",
     "bl": "1.1.2",
-    "bluebird": "3.3.4",
+    "bluebird": "^3.7.2",
     "bunyan": "1.8.0",
     "convict": "4.0.2",
     "deep-equal": "1.0.1",

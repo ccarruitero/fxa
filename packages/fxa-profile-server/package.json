@@ -23,7 +23,7 @@
     "@hapi/joi": "^17.1.1",
     "@sentry/node": "^5.17.0",
     "aws-sdk": "^2.698.0",
-    "bluebird": "3.4.1",
+    "bluebird": "^3.7.2",
     "buf": "0.1.0",
     "checksum": "0.1.1",
     "compute-cluster": "0.0.9",

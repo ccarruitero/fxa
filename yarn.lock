@@ -9556,31 +9556,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bluebird@npm:3.3.4":
-  version: 3.3.4
-  resolution: "bluebird@npm:3.3.4"
-  checksum: 3/90ff5402e09add83a916e4335883f70278c39f4857cf7ce986fe32a48dc762bbf1c2019457435af2bb516256932f397fed8c7887db9c0e64a82fa704cd0795cb
-  languageName: node
-  linkType: hard
-
-"bluebird@npm:3.4.1":
-  version: 3.4.1
-  resolution: "bluebird@npm:3.4.1"
-  checksum: 3/5fe4e4c7b13bcb614dc66444a78c779bb930198cc7c1fccb6f7dc7a533a7dce6385b74296960135f38fada35c52917517c6d01130580554bda4f0c08afaa8697
-  languageName: node
-  linkType: hard
-
 "bluebird@npm:3.5.1":
   version: 3.5.1
   resolution: "bluebird@npm:3.5.1"
   checksum: 3/11347ec6d59fdb2aca5f2507bbc5f7127bf5a7bb978da30f83469ad43a3fa6b533b24544a9b31e21fd730b77b93b0526e65c73d8fdb11b3b633f4269d75e420a
-  languageName: node
-  linkType: hard
-
-"bluebird@npm:3.5.2":
-  version: 3.5.2
-  resolution: "bluebird@npm:3.5.2"
-  checksum: 3/68e15cb2bf53ae92b7ac0a88286fd90a295b5eeca10ad02466e74777627575327b3467ce124932410a146b39609f5522e81d710dbb8c476681fee0df3981348d
   languageName: node
   linkType: hard
 
@@ -16903,7 +16882,7 @@ fsevents@^1.2.7:
     "@sentry/node": ^5.17.0
     audit-filter: 0.5.0
     base64url: 3.0.0
-    bluebird: 3.5.2
+    bluebird: ^3.7.2
     chai: ^4.2.0
     convict: 4.4.0
     eslint: ^6.8.0
@@ -16959,7 +16938,7 @@ fsevents@^1.2.7:
     aws-sdk: ^2.698.0
     base64url: 3.0.0
     binary-split: 0.1.2
-    bluebird: 3.5.2
+    bluebird: ^3.7.2
     buf: 0.1.0
     buffer-equal-constant-time: 1.0.1
     chai: ^4.2.0
@@ -17236,7 +17215,7 @@ fsevents@^1.2.7:
     "@sentry/node": ^5.17.0
     audit-filter: ^0.5.0
     bl: 1.1.2
-    bluebird: 3.3.4
+    bluebird: ^3.7.2
     bunyan: 1.8.0
     chai: ^4.2.0
     convict: 4.0.2
@@ -17355,7 +17334,7 @@ fsevents@^1.2.7:
   resolution: "fxa-geodb@workspace:packages/fxa-geodb"
   dependencies:
     audit-filter: ^0.5.0
-    bluebird: 3.5.2
+    bluebird: ^3.7.2
     chai: ^4.2.0
     cron: 1.5.0
     eslint: ^6.8.0
@@ -17654,7 +17633,7 @@ fsevents@^1.2.7:
     "@sentry/node": ^5.17.0
     audit-filter: ^0.5.0
     aws-sdk: ^2.698.0
-    bluebird: 3.4.1
+    bluebird: ^3.7.2
     buf: 0.1.0
     checksum: 0.1.1
     commander: 2.9.0
