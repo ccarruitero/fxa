@@ -63,7 +63,6 @@
     "eslint": "^6.8.0",
     "fxa-shared": "workspace:*",
     "mocha": "^7.1.2",
-    "nodemon": "^2.0.2",
     "pm2": "^4.4.0",
     "prettier": "^2.0.5",
     "proxyquire": "^2.1.3",
