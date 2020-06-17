@@ -17827,6 +17827,7 @@ fsevents@^1.2.7:
     fxa-shared: "workspace:*"
     identity-obj-proxy: ^3.0.0
     jest: ^25.3.0
+    jest-environment-jsdom-fourteen: ^1.0.1
     pm2: ^4.4.0
     postcss-cli: ^7.1.1
     prettier: ^2.0.5
@@ -22147,7 +22148,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom-fourteen@npm:1.0.1":
+"jest-environment-jsdom-fourteen@npm:1.0.1, jest-environment-jsdom-fourteen@npm:^1.0.1":
   version: 1.0.1
   resolution: "jest-environment-jsdom-fourteen@npm:1.0.1"
   dependencies:
