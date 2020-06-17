@@ -4627,20 +4627,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/convict@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "@types/convict@npm:4.2.1"
-  checksum: 3/fa6525f88f76b821e247d24444c11ef00a60613e58637daf8fc011e4eeeb8604469d5f03bd22aa8998d50690a70dab5f1f239e1455931266a4893bc8f1d5a324
-  languageName: node
-  linkType: hard
-
-"@types/convict@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "@types/convict@npm:5.2.0"
-  checksum: 3/2d0761c9aa0377a4c4b5da7c18364e4cb9f130a0874f41b1f7eccafc9d28c3220a0687b96a2c4fdca8026c9b947dd28228e8cf0032e1c6a12a6ad5daf5b00894
-  languageName: node
-  linkType: hard
-
 "@types/convict@npm:^5.2.1":
   version: 5.2.1
   resolution: "@types/convict@npm:5.2.1"
@@ -16001,7 +15987,7 @@ fsevents@^1.2.7:
     "@testing-library/user-event": ^7.2.1
     "@types/babel__core": 7.1.7
     "@types/chance": ^1.0.10
-    "@types/convict": ^4.2.1
+    "@types/convict": ^5.2.1
     "@types/dateformat": ^3.0.1
     "@types/eslint": 6.8.1
     "@types/express": ^4.17.2
@@ -16069,7 +16055,7 @@ fsevents@^1.2.7:
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.10
     "@types/chance": ^1.0.9
-    "@types/convict": ^4.2.1
+    "@types/convict": ^5.2.1
     "@types/eslint": 6.8.1
     "@types/graphql": ^14.5.0
     "@types/mocha": ^7.0.2
@@ -16156,7 +16142,7 @@ fsevents@^1.2.7:
     "@hapi/joi": ^15.1.1
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.4
-    "@types/convict": ^4.2.1
+    "@types/convict": ^5.2.1
     "@types/hapi__hapi": ^19.0.3
     "@types/ioredis": ^4.14.8
     "@types/joi": ^14.3.3
@@ -16532,7 +16518,7 @@ fsevents@^1.2.7:
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.10
     "@types/chance": ^1.0.9
-    "@types/convict": ^5.2.0
+    "@types/convict": ^5.2.1
     "@types/eslint": 6.8.1
     "@types/hapi__hapi": ^19.0.2
     "@types/mocha": ^7.0.2
@@ -16706,7 +16692,7 @@ fsevents@^1.2.7:
     "@sentry/integrations": ^5.17.0
     "@sentry/node": ^5.17.0
     "@types/chai": ^4.2.11
-    "@types/convict": ^5.2.0
+    "@types/convict": ^5.2.1
     "@types/mocha": ^7.0.2
     "@types/node": ^12.12.7
     "@types/sinon": ^9.0.0
@@ -17061,7 +17047,7 @@ fsevents@^1.2.7:
     "@hapi/joi": ^15.0.1
     "@hapi/scooter": ^6.0.0
     "@types/bluebird": ^3.5.28
-    "@types/convict": ^4.2.1
+    "@types/convict": ^5.2.1
     "@types/eslint": 6.8.1
     "@types/hapi__hapi": ^18.2.6
     "@types/hapi__joi": 15.0.1

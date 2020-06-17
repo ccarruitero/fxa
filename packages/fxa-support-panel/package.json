@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.28",
-    "@types/convict": "^4.2.1",
+    "@types/convict": "^5.2.1",
     "@types/eslint": "6.8.1",
     "@types/hapi__hapi": "^18.2.6",
     "@types/hapi__joi": "15.0.1",
