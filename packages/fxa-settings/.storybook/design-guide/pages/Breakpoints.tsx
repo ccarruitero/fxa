@@ -28,7 +28,7 @@ const BreakpointExample = ({ size, screens }) => (
       <code className="tablet:px-1 rounded-sm">
         <Copiable value={`${size}:bg-green-400`}>
           <span
-            className={`tablet:px-1 rounded-sm ${size}:bg-white ${size}:text-black`}
+            className={`tablet:px-1 rounded-sm ${size}:bg-white ${size}:bg-opacity-75 ${size}:text-black`}
           >
             {size}:bg-green-400
           </span>
