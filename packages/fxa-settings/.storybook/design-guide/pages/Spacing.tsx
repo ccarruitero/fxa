@@ -131,12 +131,18 @@ const Spacing = ({ config }) => {
                   <td className="flex-1 mb-2">
                     <code>{size}</code>
 
-                    <div className="spacing-more-content hidden absolute top-0 left-0 bottom-0 rounded w-full bg-grey-50 overflow-scroll whitespace-no-wrap flex items-center justify-center">
+                    <div className="spacing-more-content hidden absolute top-0 left-0 rounded w-full bg-grey-50 overflow-scroll whitespace-no-wrap flex items-center justify-center py-1">
+                      <span className="font-bold mr-2">size: {size}</span>
                       {data.available.includes('p') && (
-                        <>
+                        <span className="mx-2">
                           <Copiable value={`p-${size}`}>
                             <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
                               p-{size}
+                            </code>
+                          </Copiable>
+                          <Copiable value={`px-${size}`}>
+                            <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
+                              px-{size}
                             </code>
                           </Copiable>
                           <Copiable value={`py-${size}`}>
@@ -149,10 +155,10 @@ const Spacing = ({ config }) => {
                               pt-{size}
                             </code>
                           </Copiable>
-                        </>
+                        </span>
                       )}
                       {data.available.includes('m') && (
-                        <>
+                        <span className="mx-2">
                           <Copiable value={`m-${size}`}>
                             <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
                               m-{size}
@@ -163,15 +169,20 @@ const Spacing = ({ config }) => {
                               mx-{size}
                             </code>
                           </Copiable>
+                          <Copiable value={`my-${size}`}>
+                            <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
+                              my-{size}
+                            </code>
+                          </Copiable>
                           <Copiable value={`mr-${size}`}>
                             <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
                               mr-{size}
                             </code>
                           </Copiable>
-                        </>
+                        </span>
                       )}
                       {data.available.includes('-m') && (
-                        <>
+                        <span className="mx-2">
                           <Copiable value={`-m-${size}`}>
                             <code className="bg-grey-100 text-sm px-1 rounded-sm mx-1">
                               -m-{size}
@@ -182,7 +193,7 @@ const Spacing = ({ config }) => {
                               -mb-{size}
                             </code>
                           </Copiable>
-                        </>
+                        </span>
                       )}
                     </div>
                   </td>

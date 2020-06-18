@@ -36,6 +36,9 @@ const BreakpointExample = ({ size, screens }) => (
       </code>
     </div>
     <p className={`rounded-b bg-white p-3 border-t-0 max-w-${size}`}>
+      <Copiable value={size}>
+        <code className="bg-grey-100 text-sm px-1 rounded-sm">{size}</code>
+      </Copiable>{' '}
       {descriptions[size]}
     </p>
   </div>
