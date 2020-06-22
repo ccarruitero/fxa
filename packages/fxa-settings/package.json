@@ -44,7 +44,7 @@
     "typescript": "3.8.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.10.3",
     "@rescripts/cli": "0.0.14",
     "@sentry/browser": "^5.17.0",
     "@storybook/addon-actions": "^5.3.19",
