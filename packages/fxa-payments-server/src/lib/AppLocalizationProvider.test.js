@@ -115,17 +115,6 @@ describe('<AppLocalizationProvider/>', () => {
     expect(getByTestId('result')).toHaveTextContent('untranslated');
   });
 
-  it('throws when locales.json is not found', () => {
-    const provider = new AppLocalizationProvider({
-      bundles,
-      baseDir: '/nonexist',
-    });
-    return expect(provider.componentDidMount()).rejects.toHaveProperty(
-      'message',
-      'unable to fetch available locales'
-    );
-  });
-
   test('check code property', () => {
     const err = new Error();
     err.code = 404;
