@@ -2,6 +2,15 @@ import React, { useState } from 'react';
 import Page from '../Page';
 import Copiable from '../Copiable';
 
+/**
+ * Note: we have a handful of concatenated classes here, which PurgeCSS will not observe
+ * In order to fix this we need to make the full classes visible so they get picked up:
+ *
+ * font-body font-header font-mono
+ * font-normal font-bold
+ * text-xs text-sm text-base text-lg text-xl text-xxl text-xxxl
+ */
+
 export const Typography = ({ config }) => {
   const twFontFamilies = config.theme.fontFamily;
   const twFontSizes = config.theme.fontSize;

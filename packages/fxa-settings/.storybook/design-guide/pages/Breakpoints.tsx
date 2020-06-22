@@ -3,6 +3,15 @@ import Page from '../Page';
 import Copiable from '../Copiable';
 import LinkExternal from 'fxa-react/components/LinkExternal';
 
+/**
+ * Note: we have a handful of concatenated classes here, which PurgeCSS will not observe
+ * In order to fix this we need to make the full classes visible so they get picked up:
+ *
+ * max-w-mobileLandscape max-w-tablet max-w-desktop max-w-desktopXl
+ * mobileLandscape:bg-green-400 tablet:bg-green-400 desktop:bg-green-400 desktopXl:bg-green-400
+ * mobileLandscape:bg-white tablet:bg-white desktop:bg-white desktopXl:bg-white
+ */
+
 const descriptions = {
   mobileLandscape: 'Landscape-oriented mobile phones',
   tablet: 'Portrait-oriented tablets except for XL tablets*',
