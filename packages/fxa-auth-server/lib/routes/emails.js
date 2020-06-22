@@ -1039,6 +1039,27 @@ module.exports = (
         return {};
       },
     },
+    {
+      method: 'POST',
+      path: '/emails/reminders/cad',
+      options: {
+        auth: {
+          strategy: 'sessionToken',
+        },
+      },
+      handler: async function (request) {
+        log.begin('Account.CADReminderEmail', request);
+
+        const sessionToken = request.auth.credentials;
+        const uid = sessionToken.uid;
+        const account = await db.account(uid);
+        const emails = await db.accountEmails(uid);
+
+        console.log(account, emails);
+
+        return {};
+      },
+    },
   ];
 };
 
